@@ -1,0 +1,30 @@
+// Primary
+//  Text colors
+$clr-dark-blue: hsl(238, 29%, 16%);
+$clr-sft-red: hsl(14, 88%, 65%);
+
+// Background gradient
+$clr-sft-violet: hsl(273, 75%, 66%);
+$clr-sft-blue: hsl(240, 73%, 65%);
+
+// Neutral
+$clr-vdrk-gry-blue: hsl(237, 12%, 33%);
+$clr-drk-gry-blue: hsl(240, 6%, 50%);
+
+// Dividers
+$clr-lgt-gry-blue: hsl(240, 5%, 91%);
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
