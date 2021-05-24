@@ -22,6 +22,96 @@ $clr-lgt-gry-blue: hsl(240, 5%, 91%);
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
+  background: linear-gradient(180deg, $clr-sft-violet, $clr-sft-blue);
+  height: 100vh;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+
+}
+.col-icon {
+  margin: 0 auto;
+  
+  .icon {
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+  }
+
+  .icon-shadow {
+    position: absolute;
+    top: 9.8em;
+    left: 2.8rem;
+  }
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 2em;
+  margin: 9.8em 0;
+}
+
+.faq {
+  text-align: left;
+  margin: 1rem;
+  padding-bottom: 3rem;
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 4.5em 0em 0.5em;
+    color: $clr-dark-blue;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $clr-lgt-gry-blue;
+    font-size: 0.84rem;
+    font-weight: 400;
+    margin: 0rem 0.5rem;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.3rem 0; 
+  }
+  
+  &__question {
+    cursor: pointer;
+    color: $clr-vdrk-gry-blue;
+
+    &:hover {
+      color: $clr-sft-red;
+    }
+  }
+
+  &__chevron {
+    margin-left: auto;
+    height: 100%;
+  }
+
+  &__answer {
+    color: $clr-drk-gry-blue;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+  }
+}
+
+.inactive {
+  display: none;
 }
 
 
