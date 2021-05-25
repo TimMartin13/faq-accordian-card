@@ -35,8 +35,8 @@ body {
 
 .container {
   position: relative;
-
 }
+
 .col-icon {
   margin: 0 auto;
   
@@ -78,14 +78,16 @@ body {
     border-bottom: 1px solid $clr-lgt-gry-blue;
     font-size: 0.84rem;
     font-weight: 400;
-    margin: 0rem 0.5rem;
+    margin: 0rem 1rem;
   }
 
   &__row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding: 1.3rem 0; 
+    padding: 1.3rem 0;
+    letter-spacing: -0.2px; 
   }
   
   &__question {
@@ -98,23 +100,23 @@ body {
   }
 
   &__chevron {
-    margin-left: auto;
     height: 100%;
+    transition: all 0.3s;
   }
 
   &__answer {
     color: $clr-drk-gry-blue;
     line-height: 1.5;
     padding-bottom: 1rem;
-    margin-right: 2rem;
+    margin-right: 0rem;
+    letter-spacing: -0.3px; 
+    font-size: 0.8rem;
   }
 }
 
 .inactive {
   display: none;
 }
-
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

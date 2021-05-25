@@ -59,13 +59,15 @@ body {
   border-bottom: 1px solid #e7e7e9;
   font-size: 0.84rem;
   font-weight: 400;
-  margin: 0rem 0.5rem;
+  margin: 0rem 1rem;
 }
 .faq__row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   padding: 1.3rem 0;
+  letter-spacing: -0.2px;
 }
 .faq__question {
   cursor: pointer;
@@ -75,14 +77,16 @@ body {
   color: #f47c57;
 }
 .faq__chevron {
-  margin-left: auto;
   height: 100%;
+  transition: all 0.3s;
 }
 .faq__answer {
   color: #787887;
   line-height: 1.5;
   padding-bottom: 1rem;
-  margin-right: 2rem;
+  margin-right: 0rem;
+  letter-spacing: -0.3px;
+  font-size: 0.8rem;
 }
 
 .inactive {
